@@ -1,5 +1,6 @@
 
 import './App.css'
+import ConsonantCounter from './components/consonantCounter/ConsonantCounter'
 import ProductTable from './components/productsTable/ProductsTable'
 
 function App() {
@@ -11,8 +12,7 @@ function App() {
       <div className="card">
 
         <ProductTable></ProductTable>
-
-
+        <ConsonantCounter></ConsonantCounter>
       </div>
 
   
