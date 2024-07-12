@@ -3,6 +3,7 @@ import './App.css'
 import ChangeInputColor from './components/changeInputColor/ChangeInputColor'
 import ConsonantCounter from './components/consonantCounter/ConsonantCounter'
 import ProductTable from './components/productsTable/ProductsTable'
+import TransformWordConsonant from './components/trasnformWordConsonant/TransformLetters'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <ProductTable></ProductTable>
         <ConsonantCounter></ConsonantCounter>
         <ChangeInputColor></ChangeInputColor>
+        <TransformWordConsonant></TransformWordConsonant>
       </div>
 
   
