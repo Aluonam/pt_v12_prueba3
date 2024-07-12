@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
 **TAREA PRINCIPAL**
-Consume una API y muestra 4 columnas en una tabla.
+Consume una API y muestra 4 columnas en una tabla. https://fakestoreapi.com/products?limit=5
 
 **TAREAS SECUNDARIAS**
 **1.** Crea un input que cuente las consonantes y saque el resultado a medida que escribes.

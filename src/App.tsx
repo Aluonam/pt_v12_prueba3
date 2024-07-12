@@ -1,33 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import ChangeInputColor from './components/changeInputColor/ChangeInputColor'
+import ConsonantCounter from './components/consonantCounter/ConsonantCounter'
+import ProductTable from './components/productsTable/ProductsTable'
+import TransformWordConsonant from './components/trasnformWordConsonant/TransformLetters'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+        <ProductTable></ProductTable>
+        <ConsonantCounter></ConsonantCounter>
+        <ChangeInputColor></ChangeInputColor>
+        <TransformWordConsonant></TransformWordConsonant>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+  
     </>
   )
 }
